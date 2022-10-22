@@ -4,7 +4,7 @@ rm(list=ls())
 source("http://zzlab.net/GAPIT/gapit_functions.txt")
 source("gapit.txt")
 #3. set pathway; read genotype, map, covariates, and phenotype data
-setwd("/Users/mh0986/Downloads/GAPIT_Tutorial_Data")
+setwd("YOUR_PATH_WAY")
 myGD=read.table("mdp_numeric.txt",head=T)
 myGM=read.table("mdp_SNP_information.txt",head=T)
 myCV=read.table("Copy of Q_First_Three_Principal_Components.txt",head=T)
